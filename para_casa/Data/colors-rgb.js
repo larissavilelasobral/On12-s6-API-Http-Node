@@ -149,3 +149,38 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//Fazer aqui: - apresente o nome da cor e o codigo RGB como no exemplo: "gainsboro - rgb(220, 220, 220, 1)"
+
+for (let i = 0; i < obj.length; i++) {
+    const cor = obj[i]; // printa tudo
+    // console.log(cor[i]) //undefined
+    for (const i in cor) {  // nao entendi mt bem
+        console.log(`${i}: rgb(${cor[i]})`)
+    }
+}
+
+// console.log('teste')
+// for(let prop in obj){
+//     console.log("obj"+prop+"="+obj[prop]);
+//     console.log(prop)
+
+//     console.log(obj[0])
+//     console.log(Object)
+// }
+// console.log('--------------------------------------------')
+//     console.log(prop)
+
+//     console.log(obj[0])
+//     console.log(Object)
+
+
+// for (let index = 0; index < obj.length; index++) {
+//     const element = obj[index];
+//     console.log(element) //vai todos do array
+
+//     // console.log(obj.indexOf(1)) //não acha por index
+//     // console.log(element[1]) //não acha por index
+//     // console.log(obj.find(p => p.yellow)) //nada
+    
+// }

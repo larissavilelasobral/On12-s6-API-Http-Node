@@ -24,3 +24,10 @@ const obj = [
 ]
 
 // FAÇA O EXERCÍCIO ABAIXO
+for (let i = 0; i < obj.length; i++) {
+  let movie = (obj[i]);
+  console.log("Titulo: " + movie.title);
+  console.log("Descrição: " +movie.description);
+  console.log("----------------------------------------------------")
+}
+
